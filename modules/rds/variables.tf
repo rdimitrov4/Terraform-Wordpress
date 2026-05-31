@@ -39,7 +39,7 @@ variable "db_engine_version" {
 
 variable "db_multi_az" {
   type        = bool
-  default     = true
+  default     = false
   description = "Ebable/Disable Multi-AZ deployment for the RDS instance"
 
 }
