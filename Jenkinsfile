@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'dynamic-agent'
+    }
 
     // Creates a dropdown in the Jenkins UI for manual runs
     parameters {
